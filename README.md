@@ -1,25 +1,23 @@
-<h1 align="center">Hi, I'm Ahmed Javed 👋</h1> <h3 align="center">CS undergrad building and load-testing production systems, not just tutorials</h3> <p align="center"> <a href="https://github.com/ahmedjaved-tech"><img src="https://img.shields.io/badge/GitHub-ahmedjaved--tech-181717?style=flat&logo=github" /></a> <img src="https://img.shields.io/badge/BSCS-Mohammad%20Ali%20Jinnah%20University-blue?style=flat" /> <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Systems-orange?style=flat" /> </p>
+<h1 align="center">Hi, I'm Ahmed Javed 👋</h1> <h3 align="center">CS undergrad who likes shipping real, working products</h3> <p align="center"> <a href="https://github.com/ahmedjaved-tech"><img src="https://img.shields.io/badge/GitHub-ahmedjaved--tech-181717?style=flat&logo=github" /></a> <img src="https://img.shields.io/badge/BSCS-Mohammad%20Ali%20Jinnah%20University-blue?style=flat" /> <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Systems-orange?style=flat" /> </p>
 About Me
-🎓 BSCS student (Class of 2028), currently building full-stack products used by real communities — not just coursework projects
-🛠️ I care about the parts most student projects skip: auth/authorization design, database security policies, and performance under load
-📈 I load-test my own apps before I ship them — because "it works on my machine" isn't an engineering claim
-🐍 Currently deepening my Python fundamentals with a structured, CS-first approach (data structures, algorithms, systems thinking)
-🌍 Long-term goal: graduate study in the US (MIT / UPenn / Notre Dame track)
+BSCS student at MAJU (Class of 2028), building full stack products for real communities, not just class assignments
+I spend most of my time on auth, database security policies, and making sure things hold up under load
+I load test my apps with k6 before I call them done
+Right now I'm working through Python fundamentals properly: data structures, algorithms, the whole base
+Long term goal is grad school in the US
 Featured Work
-🚗 CHBTK Carpool — Carpool platform for Bahria Town Karachi residents
+CHBTK Carpool
 
-A Progressive Web App connecting residents for ride-sharing, built with production-grade auth and data isolation, not a toy CRUD app.
+A Progressive Web App that connects Bahria Town Karachi residents for carpooling.
 
-Stack: Next.js 14 (App Router) · Supabase (Auth, PostgreSQL, Row Level Security, Storage) · TypeScript · Tailwind CSS · next-pwa
-Engineering highlights:
-Designed multi-tenant data access using Postgres Row Level Security instead of app-layer authorization checks
-Load-tested with k6 at a simulated 15,000 users / 3,000–4,000 posts per day
-Measured real performance under load (p95/median response times) and used the results to drive optimization — not guesswork
-Shipped as an installable PWA (offline-capable, home-screen install) rather than a plain web app
-Source is private — happy to walk through architecture, RLS policies, or load-test results directly.
-🏘️ CHBTK — Community Hub for Bahria Town Karachi
+Stack: Next.js 14 (App Router), Supabase (Auth, PostgreSQL, Row Level Security, Storage), TypeScript, Tailwind CSS, next-pwa
+Built the data access layer around Postgres Row Level Security instead of just checking permissions in the app code
+Load tested with k6 at around 15,000 users and 3,000 to 4,000 posts a day, then used the p95/median numbers to fix bottlenecks
+Installable as a PWA, works offline, can be added to your home screen
+Source is private for now, but I'm happy to walk through the architecture or the load test results if you're curious
+CHBTK
 
-Resident-led community platform; produced a fully self-contained animated marketing deliverable (logo work, multi-scene animation, base64-embedded assets — no external dependencies) to support the platform's launch.
+A resident led community platform for Bahria Town Karachi. Made a fully self contained animated marketing video for it, logo, multiscene animation, everything embedded so it runs as a single file.
 
 Tech I Work With
 <p align="left"> <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" /> <img src="https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" /> </p>
